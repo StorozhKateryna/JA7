@@ -3,7 +3,7 @@ import java.util.Scanner;
 /**
  * Created by Игорь on 17.07.2016.
  */
-public class TarEx0 {
+public class Tar160715Ex0 {
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);
         System.out.print("Тут нужно ввести (cntrl+c)фразу \"Я сейчас изучаю StringBuilder !\"\n:");

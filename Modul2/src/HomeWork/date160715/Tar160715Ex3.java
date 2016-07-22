@@ -3,7 +3,7 @@ package HomeWork.date160715;
 /**
  * Created by Игорь on 18.07.2016.
  */
-public class TarEx3 {
+public class Tar160715Ex3 {
     public static void main(String[] args) {
         String str = "Кто тО наПИсАл, а мНе ИспраВЛЯть !";
         String str1 = str.toLowerCase();

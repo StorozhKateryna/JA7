@@ -7,7 +7,7 @@ import java.util.Scanner;
 /**
  * Created by Игорь on 18.07.2016.
  */
-public class TarEx1 {
+public class Tar160718Ex1 {
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);
         System.out.print("Введите номер месяца (целое число от 1 до 12): ");

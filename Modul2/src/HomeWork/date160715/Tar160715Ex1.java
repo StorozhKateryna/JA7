@@ -3,7 +3,7 @@ package HomeWork.date160715;
 /**
  * Created by Игорь on 17.07.2016.
  */
-public class TarEx1 {
+public class Tar160715Ex1 {
     public static void main(String[] args) {
         String str = "Мне нравится Джава, поэтому кроме домашних заданий я читаю книги по Джава и смотрю уроки по Джава !";
         System.out.println(str);

@@ -3,7 +3,7 @@ package HomeWork.date160715;
 /**
  * Created by Игорь on 18.07.2016.
  */
-public class TarEx4 {
+public class Tar160715Ex4 {
     public static void main(String[] args) {
         String sb = new String("Цена: 0081 грн. Цена: 00511 грн. Цена: 054 грн. Цена: 998 грн.");
         System.out.println(sb);

@@ -5,7 +5,7 @@ import java.util.Scanner;
 /**
  * Created by Игорь on 19.07.2016.
  */
-public class TarEx3 {
+public class Tar160719Ex3 {
     public static void main(String[] args) {
         String fio = " сиДОренко ИваН сТЕпанович";
         System.out.println("Исходная строка: " + fio);

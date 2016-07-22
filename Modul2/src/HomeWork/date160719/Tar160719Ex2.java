@@ -6,7 +6,7 @@ import java.util.Scanner;
 /**
  * Created by Игорь on 19.07.2016.
  */
-public class TarEx2 {
+public class Tar160719Ex2 {
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);
         StringBuilder sb = new StringBuilder();

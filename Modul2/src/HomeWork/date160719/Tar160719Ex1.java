@@ -7,7 +7,7 @@ import java.util.Scanner;
 /**
  * Created by Игорь on 19.07.2016.
  */
-public class TarEx1 {
+public class Tar160719Ex1 {
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);
         System.out.print("Введите высоту прямоугольника:");

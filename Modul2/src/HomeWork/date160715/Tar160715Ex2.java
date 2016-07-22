@@ -3,7 +3,7 @@ package HomeWork.date160715;
 /**
  * Created by Игорь on 17.07.2016.
  */
-public class TarEx2 {
+public class Tar160715Ex2 {
     public static void main(String[] args) {
         String str = "Моя зарплата составляет 11010010111100 грн., но я хочу повышения на 1F4 $.";
         System.out.println(str);
