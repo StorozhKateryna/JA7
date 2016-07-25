@@ -25,7 +25,7 @@ public class Tar160721ex2 {
     public static void main(String[] args) {
         String str = "Достоинствами электронной почты являются: легко воспринимаемые и запоминаемые\n" +
                 " человеком адреса вида имя_пользователя@имя_домена (например, somebody@example.com,\n" +
-                " cool.mail@habrahabr.ru!); возможность передачи как простого текста, так и форматированного, а также\n" +
+                " :;cool.mail@habrahabr.ru!); возможность передачи как простого текста, так и форматированного, а также\n" +
                 " произвольных файлов; независимость серверов (в общем случае они обращаются друг к другу\n" +
                 " непосредственно); достаточно высокая надёжность доставки сообщения; простота использования\n" +
                 " человеком и\n" +
@@ -39,16 +39,35 @@ public class Tar160721ex2 {
             if(strArr[i].length()>1) {
                 sb.delete(0,sb.length());
                 sb.append(strArr[i]);
-                for (int j = 1; j <strArr[i].length() ; j++) {
-                    if (!Character.isLetterOrDigit(sb.charAt(sb.length()-1))) {
-                        sb.deleteCharAt(sb.length()-1);
-                    }
-                    else break;
+                while(!Character.isLetterOrDigit(sb.charAt(sb.length()-1))){
+                    sb.deleteCharAt(sb.length()-1);
+                }
+                while(!Character.isLetterOrDigit(sb.charAt(0))){
+                    sb.deleteCharAt(0);
                 }
                 strArr[i] = sb.toString();
             }
         }
-        Arrays.sort(strArr);
-        System.out.println(Arrays.toString(strArr));
+        sb.delete(0,sb.length());
+        for (int i = 0; i <strArr.length ; i++) {  //для красоты
+            if (strArr[i].length()>0) {
+                sb.append(strArr[i]+" ");
+            }
+        }
+        String[] strArr2 = sb.toString().split(" ");
+        System.out.println("Решение через If-ы:" + Arrays.toString(strArr2));
+
+
+        //решение через регулярные выражения:
+        StringBuilder sb2 = new StringBuilder();
+        String myPattern = "[a-zA-Z0-9_.-]+@[a-zA-Z0-9_.-]+.[a-z]{2,3}";
+        Pattern myRegEx = Pattern.compile(myPattern);
+        Matcher m = myRegEx.matcher(str);
+        while (m.find()){
+            sb2.append(m.group()+" ");
+        }
+        String[] strArr3 = sb2.toString().split(" ");
+        System.out.println("Решение через RegExpr.:" + Arrays.toString(strArr3));
+
     }
 }
