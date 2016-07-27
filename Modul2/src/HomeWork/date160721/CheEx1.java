@@ -1,4 +1,4 @@
-package homeWork.date160722;
+package HomeWork.date160721;
 
 import java.util.Arrays;
 import java.util.Scanner;
