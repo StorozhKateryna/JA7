@@ -5,7 +5,7 @@ import java.util.regex.Pattern;
 /**
  * Created by Acer552 on 25.07.2016.
  */
-public class ZadachaEmail {
+public class PasExEmail {
     public static void main(String[] args) {
         /*2) Дан текст: «Достоинствами электронной почты являются: легко воспринимаемые и запоминаемые
         человеком адреса вида имя_пользователя@имя_домена (например, somebody@example.com, cool.mail@habrahabr.ru!); возможность передачи

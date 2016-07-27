@@ -1,4 +1,4 @@
-package homeWork.date160722;
+
 
 import java.util.Scanner;
 
