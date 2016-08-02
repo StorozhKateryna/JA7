@@ -5,4 +5,5 @@ package HomeWork.date160727;
  *Nissan Leaf с другим бензиновым автомобилем стоимость которого в 2-а раза дешевле Tesla.
  */
 public class Katya160727Ex2 {
+
 }

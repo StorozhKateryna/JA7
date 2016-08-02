@@ -8,4 +8,5 @@ package HomeWork.date160727;
  * сбрасывает скорость на 5 км/час до нуля
  */
 public class Katya160727Ex1 {
+
 }
