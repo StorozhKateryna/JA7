@@ -1,0 +1,11 @@
+1) Создать список услуг (меню, товара …) со стоимостью. Например: Кола – 10грн.; Кола и бургер – 30 грн. …
+Использовать перегрузку. Поля класса приватные
+* Задавать товры с консоли
+
+2) Почитать 
+http://wikijava.it-cache.net/index.php@title=Glava_6_Thinking_in_Java_4th_edition.html
+
+
+3) Про аннотации @Getter @Setter
+http://slava-semushin.blogspot.com/2011/09/lombok-getter-and-setter-annotations.html
+https://projectlombok.org/features/GetterSetter.html
