@@ -10,7 +10,7 @@ public class Tar160809Ex1_Main {
                 new Student("Bobby",17),
                 new Student("Harry",25),
         };
-        Teacher teacher=new Teacher("Катерина",16);
+        Teacher teacher=new Teacher("Katya",16);
         Group ja8=new Group("JA8",teacher,students);//створюємо групу, передаємо викладача та студентів
         ja8.print();//роздруковуємо группу
         ja8.delStudentByNumber(1);//видаляємо студентів
