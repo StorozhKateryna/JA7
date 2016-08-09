@@ -17,6 +17,7 @@ public class Tar160809Ex1_Main {
         ja8.delStudentByName("bobby");
         ja8.addStudent(new Student("Jimmy",20));//додаємо нового студента
         ja8.setName("JA8*");//змінюємо назву группи
+        ja8.curator.setName("Катерина");//виправляємо ім'я викладача
         ja8.print();//роздруковуємо группу ще раз
 
     }
