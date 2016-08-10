@@ -6,7 +6,7 @@ import java.util.Arrays;
  * Created by Игорь on 09.08.2016.
  */
 public class Group {
-    String name;
+    String name; // лучше делать приватными
     Teacher curator;
     Student [] students;
 
